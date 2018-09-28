@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Sprites/BlackGuy1.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/RichTextLabel.cs" type="Script" id=2]
 
 [node name="MainScene" type="Node" index="0"]
 
@@ -36,6 +37,7 @@ scroll_active = false
 scroll_following = false
 selection_enabled = false
 override_selected_font_color = false
+script = ExtResource( 2 )
 _sections_unfolded = [ "Rect", "custom_fonts" ]
 
 
